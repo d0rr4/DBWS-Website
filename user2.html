@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <title>Customization Form</title>
+</head>
+
+<body class="body-u2">
+    <nav class="sidebar">
+        <ul class="sidebar-nav">
+            <a href="#" class="nav-link">
+                <li class="nav-item">
+                    <span class="link-text">HOME</span>
+                </li>
+            </a>
+
+            <a href="#About" class="nav-link">
+                <li class="nav-item">
+                    <span class="link-text">ABOUT US</span>
+                </li>
+            </a>
+
+            <a href="#Our\Services" class="nav-link">
+                <li class="nav-item">
+                    <span class="link-text">OUR SERVICES</span>
+                </li>
+            </a>
+        </ul>
+    </nav>
+    <header>
+        <nav class="navBar">
+            <a href="index.html"><img src="images/Logo.png" class="logo"></a>
+            <form action="search.php" method="post" class="searchbar">
+                <input type="text" placeholder="Search..." name="q">
+                <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="#fff" class="w-6 h-6">`
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </button>
+            </form>
+            <a href="imprint.html" class="navLink">IMPRINT</a>
+            <a href="contact.html" class="navLink">CONTACT US</a>
+            <a href="signin.html" class="navLink">LOG IN</a>
+        </nav>
+    </header>
+    <div class="sucontain2">
+        <form action="results1.php" method="POST" class="sign-up-form">
+            <h2>Complete your Profile</h2>
+            <div class="two-fields2">
+                <div class="suinput-box2">
+                    <input type="text" id="searchBox1" class="searchBox" name="searchBox1" placeholder="Type Your Goal" required>
+                </div>
+                <div class="suinput-box2">
+                    <input type="text" id="searchBox2" class="searchBox" placeholder="Minutes" required>
+                </div>
+            </div>
+            <div class="suinput-box2">
+                <input type="text" id="searchBox3" class="searchBox" name="searchBox3" placeholder="Select a dietary preference" required>
+                <?xml version="1.0" encoding="UTF-8"?>
+                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24"
+                    class="su2icon" fill="#fff">
+                    <path
+                        d="M24,16.5v.5H9v-.5c0-2.49,2.01-4.5,4.5-4.5h6c2.49,0,4.5,2.01,4.5,4.5Zm-5.8,4.33c-.17,.11-.36,.17-.55,.17s-.39-.06-.55-.17l-2.75-1.83h-5.34v.5c0,2.49,2.01,4.5,4.5,4.5h6c2.49,0,4.5-2.01,4.5-4.5v-.5h-3.05l-2.75,1.83Zm-11.2-1.33v-3c0-2.02,.93-3.83,2.39-5.03l1.6-8.65c.1-.54,.62-.89,1.18-.8,.26,.04,.49,.19,.65,.41,.15,.22,.21,.48,.17,.74l-1.29,7.1c.57-.17,1.18-.26,1.8-.26h3.84l.54-1.93c.46-1.7-.54-3.48-2.24-3.95-.25-.07-.52-.1-.78-.1l.09-.5c.13-.79-.05-1.59-.51-2.24S13.29,.18,12.48,.04c-1.19-.21-2.35,.34-2.99,1.29C8.85,.38,7.7-.16,6.5,.04c-.79,.13-1.48,.57-1.94,1.22s-.64,1.45-.5,2.29l.1,.46c-.27,0-.53,.04-.8,.11-1.7,.48-2.71,2.25-2.24,3.96l1.14,4.02c-.61,.16-1.16,.5-1.57,.99C.11,13.79-.12,14.7,.06,15.59l.88,4.41c.46,2.33,2.53,4.02,4.9,4.02h3c-1.14-1.17-1.84-2.77-1.84-4.52Zm-2.7-7.5l-1.26-4.46c-.18-.65,.21-1.32,.85-1.5,.24-.07,.48-.05,.71,.02l1.3,5.93h-1.61Z" />
+                </svg>
+            </div>
+
+            <div class="suinput-box2">
+                <input type="text" id="searchBox4" class="searchBox" name="searchBox4" placeholder="Workout Program" required>
+                <svg id="Layer_1" viewBox="0 0 24 24" class="su2icon2" fill="#fff" xmlns="http://www.w3.org/2000/svg"
+                    data-name="Layer 1">
+                    <path
+                        d="m23.121 7.122-2.414-2.415 2-2-1.414-1.414-2 2-2.414-2.414a3 3 0 0 0 -4.243 0l-2.828 2.828 4.535 4.536-6.1 6.1-4.536-4.535-2.828 2.828a3 3 0 0 0 0 4.242l2.414 2.415-2 2 1.414 1.414 2-2 2.414 2.414a3 3 0 0 0 4.243 0l2.828-2.828-4.535-4.536 6.1-6.1 4.535 4.535 2.828-2.828a3 3 0 0 0 0-4.242zm-13.171 14.585a1 1 0 0 1 -1.415 0l-6.242-6.243a1 1 0 0 1 0-1.414l1.414-1.414 7.657 7.657zm11.757-11.758-1.414 1.415-7.657-7.657 1.414-1.414a1 1 0 0 1 1.415 0l6.242 6.243a1 1 0 0 1 0 1.413z" />
+                </svg>
+            </div>
+            <button type="submit">Get your Plan!</button>
+            <script>
+                $(function () {
+                    $("#searchBox1").autocomplete({
+                        source: function (request, response) {
+                            $.ajax({
+                                url: "autocomplete.php",
+                                dataType: "json",
+                                data: {
+                                    term: request.term,
+                                    searchBox: 1
+                                },
+                                success: function (data) {
+                                    console.log(data);
+                                    response(data);
+                                }
+                            });
+                        },
+                        minLength: 1
+                    });
+
+                    $("#searchBox2").autocomplete({
+                        source: function (request, response) {
+                            $.ajax({
+                                url: "autocomplete.php",
+                                dataType: "json",
+                                data: {
+                                    term: request.term,
+                                    searchBox: 2
+                                },
+                                success: function (data) {
+                                    console.log(data);
+                                    response(data);
+                                }
+                            });
+                        },
+                        minLength: 1
+                    });
+
+                    $("#searchBox3").autocomplete({
+                        source: function (request, response) {
+                            $.ajax({
+                                url: "autocomplete.php",
+                                dataType: "json",
+                                data: {
+                                    term: request.term,
+                                    searchBox: 3
+                                },
+                                success: function (data) {
+                                    console.log(data);
+                                    response(data);
+                                }
+                            });
+                        },
+                        minLength: 1
+                    });
+
+                    $("#searchBox4").autocomplete({
+                        source: function (request, response) {
+                            $.ajax({
+                                url: "autocomplete.php",
+                                dataType: "json",
+                                data: {
+                                    term: request.term,
+                                    searchBox: 4
+                                },
+                                success: function (data) {
+                                    console.log(data);
+                                    response(data);
+                                }
+                            });
+                        },
+                        minLength: 1
+                    });
+                });
+            </script>
+        </form>
+    </div>
+</body>
+
+</html>

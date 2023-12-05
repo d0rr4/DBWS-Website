@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workout Information</title>
+</head>
+<body>
+    <form action="workout_info_process.php" method="POST">
+        <label for="workout_name">Name:</label>
+        <input type="text" id="workout_name" name="workout_name" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty" name="difficulty">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select>
+        
+        <label for="category">Category:</label>
+        <input type="text" id="category" name="category" required>
+        
+        <label for="duration">Duration (minutes):</label>
+        <input type="number" id="duration" name="duration" required>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
